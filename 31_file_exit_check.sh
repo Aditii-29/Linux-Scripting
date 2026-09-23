@@ -4,7 +4,7 @@ FILEPATH="/mnt/d/Linux/MyScripting/test.csv"
 
 if [[ -f $FILEPATH ]]
 then 
-	echo "File Path"
+	echo "File path- $FILEPATH"
 else
 	echo "File not exist"
 	exit 1
